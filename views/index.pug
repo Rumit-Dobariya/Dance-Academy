@@ -1,0 +1,57 @@
+doctype html 
+html 
+  head
+    title Rumit's Dance Acedamy
+    style 
+      include ../static/style.css 
+       link(rel="stylesheet" media="screen and (max-width: 1320px)" href="../static/rep.css")
+  body 
+    nav#navbar 
+        ul
+          div#logo
+            img(src="/static/logo.jpg")
+            | RDA
+          li #[a(href='/') Home]
+          li #[a(href='/') About]
+          li #[a(href='/') Service]
+          li #[a(href='/') Class Info]
+          li #[a(href='/') Contact us]
+    
+    section#intro
+        div Welcome to Rumit's Dance Acedamy 
+        div.small Eat Sleep Dance Repeat
+    section#mission 
+        h2 Our Mission
+        div.card 
+          h3 Dance Perfection
+          div.card-box
+            div.card-img
+              img(src="/static/1.jpg")
+            div.card-content
+              p This is the best dance academy of the universe
+        div.card 
+          h3 Dance the way you like
+          div.card-box
+            div.card-img
+              img(src="/static/2.jpg")
+            div.card-content
+              p This is the best dance academy of the universe
+        div.card 
+          h3 Expert teaching
+          div.card-box
+            div.card-img
+              img(src="/static/3.jpg")
+            div.card-content
+              p This is the best dance academy of the universe
+    section#sponsors
+        h2 Our sponsors
+        div#spo
+            img(src="/static/dell.png", Class="spimage")
+            img(src="/static/apple.png", Class="spimage")
+            img(src="/static/hp.png", Class="spimage")
+            img(src="/static/skype.png", Class="spimage")
+
+    footer#footer 
+        | Copyright © 2021 RumitDanceAcedamy.com All |  Rights Are Reserved.
+    script 
+       include ../static/index.js

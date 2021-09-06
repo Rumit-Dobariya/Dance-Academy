@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 28px;
+    margin-right: 55px;
+}
+#logo img{
+    height: 55px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color: #0f5597;
+    padding: 13px 14px;
+    font-family: 'Lacquer';
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+    /* padding: 25px 41px; */
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 13px 20px;
+    font-size: 27px;
+}
+#navbar li a:hover{
+    color: black;
+}
+#intro{
+    padding-bottom: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 55px;
+    align-items: center;
+    height: 425px;
+    background: url('../static/tim-gouw-tYpp-eIZH44-unsplash.jpg')center/cover no-repeat;
+}
+#intro div.small{
+    font-size: 35px;
+    padding: 5px;
+}
+#mission{
+    
+ height: 560px;
+}
+#mission h2{
+    font-size: 42px;
+    font-family: 'Lacquer';
+    text-align: center;
+    padding-top: 23px;
+}
+.card{
+    box-shadow: 16px 22px 19px #6c71f2;
+    background-color:  #9bbcf8;
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 22px;
+    height: 390px;
+}
+.card h3{
+    font-family: cursive;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 125px;
+    padding: 0px 14px;
+    margin: 4px 9px;
+}
+
+.card-img img{
+    margin-top: 14px;
+    padding: 0px 18px;
+    height: inherit;
+}
+
+.card-content{
+    padding: 0px 10px
+}
+
+.card-content p{
+    font-size: 19px;
+}
+
+#sponsors{
+    height: 300px;
+    background-color: #f0fa66;
+}
+#sponsors h2{
+    font-size: 42px;
+    font-family: 'Lacquer';
+    text-align: center;
+    padding-top: 23px;
+}
+#spo{
+    height: 191px;
+    max-width: 1000px;
+    margin: 27px 361px;
+}
+.spimage{
+    height: 55%;
+    margin: 43px;
+}
+
+#footer{
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Lacquer';
+    background-color: black;
+}
